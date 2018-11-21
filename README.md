@@ -1,0 +1,14 @@
+# php
+1 - Verifique se seu nome e email estão configurados no Git. Execute:
+git config --global user.email "seu_email"
+git config --global user.name "seu_nome"
+
+2 - Os comandos que compõe o processo para adicionar as mudanças ao repositório remoto são:
+git add --all
+git commit -m 'mensagem'
+git pull origin master --allow-unrelated-histories
+git push -u origin master
+
+É importante executar esses comandos na ordem
+Com esses procedimentos, conseguiremos adicionar nossos arquivos ao GitHub ou BitBucket
+Bons estudos a todos :)
