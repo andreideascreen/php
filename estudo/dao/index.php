@@ -29,10 +29,16 @@ require_once("config.php");
 // $aluno->insert();
 // echo $aluno;
 
-//Atualiza um usuario
+//Atualiza um usuário
+// $usuario = new Usuario();
+// $usuario->loadByid(10);
+// $usuario->update("professor","asdfghjkl");
+// echo $usuario;
+
+//Deleta um usuário
 $usuario = new Usuario();
 $usuario->loadByid(10);
-$usuario->update("professor","asdfghjkl");
+$usuario->delete();
 echo $usuario;
 
 ?>
