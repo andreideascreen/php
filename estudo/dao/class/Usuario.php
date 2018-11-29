@@ -118,7 +118,6 @@ class Usuario{
 		$this->setDeslogin("");
 		$this->setDessenha("");
 		$this->setDtcadastro(new DateTime());
-
 	}
 
 	public function __construct($login="", $password=""){
